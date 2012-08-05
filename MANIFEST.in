@@ -1,0 +1,4 @@
+include LICENSE.txt
+recursive-include flatpage_meta/migrations *
+recursive-include flatpage_meta/fixtures *
+recursive-include flatpage_meta/templates *

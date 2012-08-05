@@ -1,0 +1,26 @@
+This is a quick upgrade for any site using Django FlatPages.
+
+Installation
+============
+
+Add flatpage_meta to your INSTALLED_APPS, run syncdb
+
+
+Use:
+===
+
+Put this into your FlatPage template:
+
+    {% load flatpage_meta_tags %}
+    {% flatpage_meta_tags flatpage %}
+    
+and/or this into into your site's base template.
+
+    {% load flatpage_meta_tags %}
+    {% flatpage_meta_tags %}
+
+
+Administration:
+==============
+
+Edit your meta data inline on your FlatPage and Site models.
