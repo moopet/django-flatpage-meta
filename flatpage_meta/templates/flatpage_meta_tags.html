@@ -1,4 +1,3 @@
-{% for tag in site_tags %}{{ tag }}
-{% endfor %}
-{% for tag in flatpage_tags %}{{ tag }}
+{% for tag in site_tags %}{{ tag|safe }}
+{% endfor %}{% for tag in flatpage_tags %}{{ tag|safe }}
 {% endfor %}
