@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='django-flatpage-meta',
-    version='0.0.1',
+    version='0.0.2',
     description='A simple app to add meta tag support to flatpages',
     author="Ben Sinclair",
     packages=find_packages(),
